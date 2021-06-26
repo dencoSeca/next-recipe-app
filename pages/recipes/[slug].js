@@ -57,6 +57,7 @@ export default function OneRecipe({ data, preview }) {
         {likes} ❤️
       </button>
       <main className="content">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={urlFor(recipe?.mainImage).url()} alt={recipe.name} />
         <div className="breakdown">
           <ul className="ingredients">

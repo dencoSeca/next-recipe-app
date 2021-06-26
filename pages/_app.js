@@ -7,6 +7,7 @@ function MyApp({ Component, pageProps }) {
       <nav className="header">
         <div>
           <Link href="/">
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
             <a>Kap's Kitchen 🍍</a>
           </Link>
         </div>
